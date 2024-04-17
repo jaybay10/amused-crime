@@ -30,11 +30,11 @@ body {
   }
 
   .btn-outline-primary {
-    @apply bg-blue-50 text-blue-600 border border-blue-600 hover:text-white hover:bg-blue-700;
+    @apply bg-orange-50 text-orange-600 border border-orange-600 hover:text-white hover:bg-blue-700;
   }
 
   .btn-primary {
-    @apply text-white bg-blue-600 hover:bg-blue-700;
+    @apply text-white bg-orange-600 hover:bg-orange-700;
   }
   .btn-success {
     @apply text-white bg-green-600 hover:bg-green-700;
@@ -61,7 +61,7 @@ body {
   }
 
   .form-control {
-    @apply w-full py-2 px-3 outline-none border-2 border-gray-200 focus:border-blue-600 rounded-lg;
+    @apply w-full py-2 px-3 outline-none border-2 border-gray-200 focus:border-orange-600 rounded-lg;
   }
   .form-control.invalid {
     @apply border-red-300;
